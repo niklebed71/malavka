@@ -1,0 +1,71 @@
+body {
+    /*background-color: yellow;*/
+
+    background-color: yellow;
+}
+.content {
+    background-color: firebrick;
+    text-align: center;
+    border: blue 3px solid;
+    width: 1000px;
+    margin: 0 auto;
+}
+h1 {
+    color: blue;
+    font-size: 40px;
+}
+.navigatio {
+    margi: 0px auto;
+    font-size: 25px;
+    color: blue;
+    border: 10px blue solid;
+    background: url(../img/why.jpg);
+
+    width: 850px;
+    height: 158px;
+}
+.navigatio :hover {
+    background-color: blue;
+    color: white;
+}
+.navigatio :active {
+    background-color: green;
+    color: yellow;
+}
+.navigatio ul {
+    border: 3px solid blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.navigatio ul li {
+    border: 3px solid red;
+}
+.navigatio ul :hover {
+    color: white;
+}
+.how {
+    margin: 0 0px 55px 0px;
+}
+
+.body {
+}
+
+h3 {
+    color: blue;
+    font-size: 40px;
+}
+
+@media (min-width: 1042px) {
+    h3 {
+        display: none;
+    }
+}
+@media (max-width: 1042px) {
+    h1 {
+        display: none;
+    }
+}
+form {
+    margin: 0px 0px 55px 0px;
+}
